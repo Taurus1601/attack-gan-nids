@@ -1,7 +1,9 @@
 .venv
 data/
-models/
-backend/model
+models/gan/*.h5
+models/gan/*.pkl
+models/gan/*.joblib
+backend/generated/
 backend/__pycache__
 
 # Ignore specific model files in the backend/model directory
